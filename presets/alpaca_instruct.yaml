@@ -1,0 +1,13 @@
+name: Alpaca Instruct
+content: |
+  Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+  ### Instruction:
+  @<Give instructions to the AI>@
+
+  ### Response:@<generation_placeholder>@
+
+help: |
+  This is the default Alpaca fine tuning format for instruct mode with input.
+  There is a single parameter:
+  - The instruction to the AI. For example, Who is Abraham Lincoln?
